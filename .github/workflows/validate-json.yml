@@ -2,9 +2,9 @@ name: Validate JSON
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ merge-action ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ main ]
 
 jobs:
   validate-json:
